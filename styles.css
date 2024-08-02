@@ -1,0 +1,40 @@
+html * {
+	font-family: Arial, sans-serif;
+}
+
+h2, input, button {
+	display: block;
+	margin: 4px 0px;
+}
+
+label {
+	font-size: 14px;
+}
+
+input[type=number] {
+	width: 174px;
+	padding: 8px;
+	border: 1px solid #80CDFF;
+	border-radius: 4px;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+input[type=number]:focus {
+	box-shadow: 0px 0px 4px 1px #80CDFF;
+}
+
+button {
+	background-color: #2090EE;
+	color: #FFFFFF;
+	cursor: pointer;
+	padding: 7px 20px;
+	border-style: none;
+	border-radius:16px;
+	-webkit-border-radius:20px;
+	webkit-appearance: none;
+}
+
+button:hover {
+	opacity: 0.95;
+}
